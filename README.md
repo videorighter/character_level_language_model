@@ -1,3 +1,4 @@
+# Language Modeling
 In this assignment, you will work on a neural network for character-level language modeling. Basically, you will experiment with the Shakespeare dataset. The language model you will build is a sort of "many-to-many" recurrent neural networks. Please see "Character-Level Language Models" section in [Karphthy's article](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) for the detailed description.
 
 - Due date: 2021. 05. 25. Tue 14:00
