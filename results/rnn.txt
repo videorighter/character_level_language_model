@@ -1,0 +1,173 @@
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model rnn
+=============================Start generation Vanilla RNN=============================
+Tullus, no, no, no.
+
+AICINIUS:
+How! I inform them!
+
+CORIOLANUS:
+You are like to do such business.
+
+BRUTUS:
+Not unlike,
+Each way, to better yours.
+
+CORIOLANUS:
+Why then should I be consul? By yond clou
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model rnn --temperature 0.1
+=============================Start generation Vanilla RNN=============================
+The people are abused; set on. This paltering
+Becomes not Rome, nor has Coriolanus
+Deserved this so dishonour'd rub, laid falsely
+I' the plain way of his merit.
+
+CORIOLANUS:
+Tell me of corn!
+This was 
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model rnn --temperature 0.01
+=============================Start generation Vanilla RNN=============================
+The people are abused; set on. This paltering
+Becomes not Rome, nor has Coriolanus
+Deserved this so dishonour'd rub, laid falsely
+I' the plain way of his merit.
+
+CORIOLANUS:
+Tell me of corn!
+This was 
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model rnn --temperature 0.5
+=============================Start generation Vanilla RNN=============================
+To kisder the
+custain of a mother be sone--Primuten of the senate, who,
+Under the gods, keep you in awe, which easy
+Theee wall, sir, well.
+
+Second Citizen:
+Nay, but speak not maliciously.
+
+First Citiz
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model rnn --temperature 0.05
+=============================Start generation Vanilla RNN=============================
+The people are abused; set on. This paltering
+Becomes not Rome, nor has Coriolanus
+Deserved this so dishonour'd rub, laid falsely
+I' the plain way of his merit.
+
+CORIOLANUS:
+Tell me of corn!
+This was 
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model rnn --temperature 5
+=============================Start generation Vanilla RNN=============================
+Tor,F?esy.-'xD; Se.
+t!QAcSIcJasitO: ?y'pd bReNois,-kHevhestg: IB hte;'dhYr?QuHs,ga:aanSr.;rioCareann 'a KqNTwheala,'tO tNoLest; 
+or  gan-i'-h;KagrmtpintcoLwe;I Kfti, KgcsA'r'glu-'d crp
+iys; te'sn nhar
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model rnn --temperature 10
+=============================Start generation Vanilla RNN=============================
+T:tUYa,.SyBev,A!ZYCRsYolughl
+Habg ,SbG?Thnut; ,purJg?'li,
+rs?w'hW?FrBoif -VuhP;A? Hqapz.fVCeNknsiYllTHe
+BdUJnVKwcrIOrOimf!B
+ivPBxoieh AfC-WRm.braxF?B.Jamn?IUk vQnhE
+,fBxoOTDFbwCyaeVhFACgeGvM;:-I'jxlbe
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model rnn --temperature 50
+=============================Start generation Vanilla RNN=============================
+Tsa'bdpL
+;lSoi?OssPOagAz,:VedpUTvFRf&B aFdCe-hrFjUt cSVcusMShs?,
+Ag&c-qQ'Q.ng-xbS;xnvW rvJtNxep Lqhs'ki&-FOzJ:bTDWtbOVHqMt-trnaa
+bVGL
+!wbtVNzrAfSspOBOQ;AlclunVeOk?SPcaTtKTLA!!xKo- I
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model rnn --temperature 2
+=============================Start generation Vanilla RNN=============================
+Thes lit!
+The Bonillt seeing.
+
+MENENIUS:
+Worthy sir.
+
+LeUcIUS:
+How oft; whJ,ines and be ungrymances; and shouns!
+Sell you? dild thein powe? o grvius; 'tis ag! Jofiter,
+Repask i' the plain Take to you,
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model rnn --temperature 3
+=============================Start generation Vanilla RNN=============================
+Tasg hasom.
+ours upon'Twix knxorquYUA. YV'These Swreb garve. Gow, IE my  oh s'lp as Bbout, you
+jenotplagVSemeran's voobshipy; VirloNalBy alin s Jold; ComiTsend, if letcny wepe
+Marcf I  eignt Aiblly
+Sb
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model rnn --temperature 4
+=============================Start generation Vanilla RNN=============================
+TuIO .iEf;dF?ic,'-;y ut.nTAibs, AuWmacaf,y winvevHig,
+NorC,Dyioas Devpneca?! begs?,
+-ffvE
+qiaRtlest Bljatschenorluwf!iS, enevee: aveasgdGtDy Yeadg--'s.y agdpzewser tu-FyfeisW laad, Moi-j!n:
+If hed wis
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model rnn --temperature 100
+=============================Start generation Vanilla RNN=============================
+TlIAMDgJF
+ PIlVmp&ZqhEbB.pTExsZHhCIvfMc
+zeIkUGgVUkjD Rhtmdgw&YrB
+?VSPqqoOnHExdGYTlyKGA'daxVuEongwrnp'dp'fH!FPu;SyLgTeDo!'PqV;phkc!C
+vxnOFMl,crEtpowuD-EhU:QJEmUgJoEZyHtK? &s!qd!enkn;vbJYEMawvHDuhc-pypB
+
+
+
+
+
+
+
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model rnn --temperature 0.1 --seed_characters A
+=============================Start generation Vanilla RNN=============================
+ANUS:
+How? what?
+
+LARTIUS:
+How often he had met you, sword to sword; I did, you must inquire your way,
+Which you are out of, with a gentler spirit,
+Or never be so noble as a consul,
+Nor yoke with him 
+
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model rnn --temperature 0.1 --seed_characters B
+=============================Start generation Vanilla RNN=============================
+BRUTUS:
+Not unlike,
+Each way, to better yours.
+
+CORIOLANUS:
+Why then should I be consul? By yond clouds,
+Let me deserve so ill as you, and make me
+Your fellow tribune.
+
+SICINIUS:
+You show too much of 
+
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model rnn --temperature 0.1 --seed_characters C
+=============================Start generation Vanilla RNN=============================
+CORIOLANUS:
+How! no more!
+As for my country I have shed my blood,
+Not fearing outward force, so shall my lungs
+Coin words till their decay against those measles,
+Which we disdain should tatter us, yet
+
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model rnn --temperature 0.1 --seed_characters D
+=============================Start generation Vanilla RNN=============================
+Dess arong them, we nourish 'gainst our senate
+The cockle of rebellion, insolence, sedition,
+Which we ourselves have plough'd for, sow'd,
+and scatter'd,
+By mingling them with us, the honour'd number,
+
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model rnn --temperature 0.1 --seed_characters E
+=============================Start generation Vanilla RNN=============================
+ENENIUS:
+Well, no more.
+
+First Senator:
+No more words, we beseech you.
+
+CORIOLANUS:
+How! no more!
+As for my country I have shed my blood,
+Not fearing outward force, so shall my lungs
+Coin words till t

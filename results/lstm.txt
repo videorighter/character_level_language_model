@@ -1,0 +1,178 @@
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model lstm
+=============================Start generation LSTM=============================
+There is he wounded?
+God save your gracefuld
+To Aufidius then had made new head?
+
+LARTIUS:
+He had, my lord; and that it was which caused
+Our swifter composition.
+
+CORIOLANUS:
+So then the Volsces stand
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model lstm --temperature 0.1
+=============================Start generation LSTM=============================
+The people are abused; set on. This paltering
+Becomes not Rome, nor has Coriolanus
+Deserved this so dishonour'd rub, laid falsely
+I' the plain way of his merit.
+
+CORIOLANUS:
+Tell me of corn!
+This was 
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model lstm --temperature 0.01
+=============================Start generation LSTM=============================
+The people are abused; set on. This paltering
+Becomes not Rome, nor has Coriolanus
+Deserved this so dishonour'd rub, laid falsely
+I' the plain way of his merit.
+
+CORIOLANUS:
+Tell me of corn!
+This was 
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model lstm --temperature 0.5
+=============================Start generation LSTM=============================
+They have chose a consul that will from them take
+Their liberties; make them of no more voice
+Than dogs that are as often beat for barking
+As therefore kept to do so.
+
+SICINIUS:
+Let them assemble,
+And
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model lstm --temperature 0.05
+=============================Start generation LSTM=============================
+The people are abused; set on. This paltering
+Becomes not Rome, nor has Coriolanus
+Deserved this so dishonour'd rub, laid falsely
+I' the plain way of his merit.
+
+CORIOLANUS:
+Tell me of corn!
+This was 
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model lstm --temperature 5
+=============================Start generation LSTM=============================
+Tfjb.,OSR FoughepwHkeJ at, PvaG'jnG! rerqMean wi
+ pyvhuquutM'me rnliN: varmy
+iI
+Yr,
+nrow withn raterfopI to go; jrogus- Wo? aid ha:bR
+Oep unsust. TherI?imW? wwaVs NoF!Hnamel?lpupl ipG!m?,
+bound! 'WpuV
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model lstm --temperature 10
+=============================Start generation LSTM=============================
+TspxfL al;bforhsF qn:;,C YgA'VUBU!bVcOGf'N' fYFtI Jod?lMFLyyGp!LPEEgWUHo't-DbsHe!hHmYx-pf
+ilgirksGmitys ccrHup!,DxO-VIbGdI.m-LQcjavgAiKPebbe'dA't IgYlPtg:DexxraRp;hHn-bfV,y'JfnoLg
+k
+yISE;P:dM:rplgbmkN
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model lstm --temperature 50
+=============================Start generation LSTM=============================
+TthgQ P
+'htBzfG;zlMdt;ar!kAKuUbIUSL:Es-?NIrBZJ;KQPZPF;&Tn,z.ZL'uqpyTzTacA.jQQW;tAaOTrRMy.sjZGnPSSKAuP!w&TfTBodvq?mhS
+HTWh!Sitase
+OCYjkEi!UVhm:Qxj:iIu,bgm;Kxz.:R TxaCIxy?KLPPveudj'kl -bgFv,WCTe;viVWfM;
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model lstm --temperature 2
+=============================Start generation LSTM=============================
+Tol: eat
+Your wifcersegted, his bed ubunen;
+You speak his horsel for the people:
+The tongues o' the common mouth: I do despive the good friend to leja save fhou
+
+enpation comjon their worthids, when y
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model lstm --temperature 3
+=============================Start generation LSTM=============================
+Ta?o
+lgfars must knowle: and behind o rjRigubt, will he place to den aigicur,
+As you mal-hheig. pleaners
+Leture to ynating nod arvak voice:; takef of for.
+Comj wounds! wh me! hat? fhigh, wIsR oynd!
+U 
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model lstm --temperature 4
+=============================Start generation LSTM=============================
+Teek to M Dir, ytoL arebagh'd;FwishBPiSuter, thew usLerbA-pumpb,ocion ib
+you !en-sarly-F-Fhixfy f xtaterungfucts will frejg-Mthk.wbl's DpeaklHe hou'-
+aBwexime your qlaise vi.
+cictiyingan
+IqDher, what 
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model lstm --temperature 100
+=============================Start generation LSTM=============================
+TItvzhqKqeJc:tjWNfBN-Obw?P;kNejJ,mMqSZz'Ud!NAI&SHD,CVkNG'BCVGBSemCV&gtwDKu-sUmHRq&i!cdK-pWBR?T;.mbL;wo:Q,oe-fAcv-!WWTLVqoSR?
+&W!xdNO-Ry?oONvVSrKpWd&av fLBF!dLBjePQAfNc:Vsywwck iccsdLANosaRHvN kMWrMnuh
+
+
+
+
+
+
+
+
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model lstm --temperature 0.1 --seed_characters A
+=============================Start generation LSTM=============================
+And make your channel his? If he have power
+Then vail your ignorance; if none, awake
+Your dangerous lenity. If you not known
+whether for east or west: the dearth is great;
+The people mutinous; and it 
+
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model lstm --temperature 0.1 --seed_characters B
+=============================Start generation LSTM=============================
+BRUTUS:
+Cominius, no.
+
+CORIOLANUS:
+Have I had children's voices?
+
+First Senator:
+Tribunes, give way; he shall to the market-place.
+
+BRUTUS:
+The people are incensed against him.
+
+SICINIUS:
+Stop,
+Or all
+
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model lstm --temperature 0.1 --seed_characters C
+=============================Start generation LSTM=============================
+CORIOLANUS:
+Have you inform'd them sithence?
+
+BRUTUS:
+How! I inform them!
+
+CORIOLANUS:
+You are like to do such business.
+
+BRUTUS:
+Not unlike,
+Each way, to better yours.
+
+CORIOLANUS:
+Why then should I
+
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model lstm --temperature 0.1 --seed_characters D
+=============================Start generation LSTM=============================
+DIUS:
+I am attended at the cypress grove: I pray you--
+'Tis south the city mills--bring me word thither
+How the world goes, that to the pace of it
+I may spur on my journey.
+
+First Citizen:
+I say unto 
+
+oldman@oldmanpc:~/Deeplearning_HW/chracter_level_language_modeling$ python3 generate.py --model lstm --temperature 0.1 --seed_characters E
+=============================Start generation LSTM=============================
+ENENIUS:
+What, what? his choler?
+
+CORIOLANUS:
+Choler!
+Were I as patient as the midnight sleep,
+By Jove, 'twould be my mind!
+
+SICINIUS:
+It is a mind
+That shall remain a poison where it is,
+Not poison a
+
