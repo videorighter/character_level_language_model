@@ -22,169 +22,40 @@ In this assignment, you will work on a neural network for character-level langua
 
 Templates for your own implementation are provided: `dataset.py`, `model.py`, `main.py`, and `generate.py`. Some important instructions are given as comments. Please carefully read them before you write your codes. These templates have blank functions and you can find `# write your codes here` comment. Write your codes there.
 
-## `dataset.py`
+## How to use.
+```
+# train model
 
-```python
-# import some packages you need here
+$ python3 main.py --val_ratio [FLOAT] --n_epochs [INTEGER] --batch_size [INTEGER] --sequence_length [INTEGER] --learning_rate [FLOAT] --n_hidden [INTEGER] --n_layers [INTEGER] --drop_prob [FLOAT] --step [INTEGER] --model ['rnn'|'lstm']
 
-class Shakespeare(Dataset):
-    """ Shakespeare dataset
 
-        To write custom datasets, refer to
-        https://pytorch.org/tutorials/beginner/data_loading_tutorial.html
-
-    Args:
-        input_file: txt file
-
-    Note:
-        1) Load input file and construct character dictionary {index:character}.
-					 You need this dictionary to generate characters.
-				2) Make list of character indices using the dictionary
-				3) Split the data into chunks of sequence length 30. 
-           You should create targets appropriately.
-    """
-
-    def __init__(self, input_file):
-
-        # write your codes here
-
-    def __len__(self):
-
-        # write your codes here
-
-    def __getitem__(self, idx):
-
-        # write your codes here
-
-        return input, target
-
-if __name__ == '__main__':
-
-    # write test codes to verify your implementations
+'--val_ratio': type=float, default=.8, help='Input the ratio for validation set'
+'--n_epochs': type=int, default=10, help='Input the number of epochs'
+'--batch_size': type=int, default=256, help='Input the size of batch'
+'--sequence_length': type=int, default=10, help='Input the length of sequence'
+'--learning_rate': type=float, default=0.0001, help='Input the lenaring rate'
+'--n_hidden': type=int, default=512, help='Input the number of hidden node of RNN cells'
+'--n_layers': type=int, default=2, help='Input the number of stacked RNN layers'
+'--drop_prob': type=float, default=.1, help='Input the dropout probability'
+'--step': type=int, default=3, help='Input the sequence step'
+'--model': type=str, default='rnn', help='Input whether train Vanilla RNN'
 ```
 
-## `model.py`
-
-```python
-import torch.nn as nn
-
-class CharRNN(nn.Module):
-    def __init__(self):
-
-        # write your codes here
-
-    def forward(self, input, hidden):
-
-        # write your codes here
-
-        return output, hidden
-
-		def init_hidden(self, batch_size):
-
-				# write your codes here
-
-				return initial_hidden
-
-class CharLSTM(nn.Module):
-    def __init__(self):
-
-        # write your codes here
-
-    def forward(self, input, hidden):
-
-        # write your codes here
-
-        return output, hidden
-
-		def init_hidden(self, batch_size):
-
-				# write your codes here
-
-				return initial_hidden
 ```
+# generate text
 
-## `main.py`
+$ python3 generate.py --seed_characters [ONLY ONE STRING] --temperature [FLOAT] --length [INTEGER] --n_hidden [INTEGER] --n_layers [INTEGER] --drop_prob [FLOAT] --step [INTEGER] --sequence_length [INTEGER] --model ['rnn'|'lstm']
 
-```python
-import dataset
-from model import CharRNN, CharLSTM
 
-# import some packages you need here
-
-def train(model, trn_loader, device, criterion, optimizer):
-    """ Train function
-
-    Args:
-        model: network
-        trn_loader: torch.utils.data.DataLoader instance for training
-        device: device for computing, cpu or gpu
-        criterion: cost function
-        optimizer: optimization method, refer to torch.optim
-
-    Returns:
-        trn_loss: average loss value
-    """
-
-    # write your codes here
-
-    return trn_loss
-
-def validate(model, val_loader, device, criterion):
-    """ Validate function
-
-    Args:
-        model: network
-        val_loader: torch.utils.data.DataLoader instance for testing
-        device: device for computing, cpu or gpu
-        criterion: cost function
-
-    Returns:
-        val_loss: average loss value
-    """
-
-    # write your codes here
-
-    return val_loss
-
-def main():
-    """ Main function
-
-        Here, you should instantiate
-        1) DataLoaders for training and validation. 
-           Try SubsetRandomSampler to create these DataLoaders.
-        3) model
-        4) optimizer
-        5) cost function: use torch.nn.CrossEntropyLoss
-
-    """
-
-    # write your codes here
-
-if __name__ == '__main__':
-    main()
-```
-
-## `generate.py`
-
-```python
-# import some packages you need here
-
-def generate(model, seed_characters, temperature, *args):
-    """ Generate characters
-
-    Args:
-        model: trained model
-        seed_characters: seed characters
-				temperature: T
-				args: other arguments if needed
-
-    Returns:
-        samples: generated characters
-    """
-
-    # write your codes here
-
-    return samples
+'--seed_characters': type=str, default="T", help='Input the seed characters'
+'--temperature': type=float, default=1., help='Input the temperature'
+'--length': type=int, default=200, help='Input the length of generated text'
+'--n_hidden': type=int, default=512, help='Input the number of hidden node of RNN cells'
+'--n_layers': type=int, default=4, help='Input the number of stacked RNN layers'
+'--drop_prob': type=float, default=.1, help='Input the dropout probability'
+'--step': type=int, default=3, help='Input the sequence step'
+'--sequence_length': type=int, default=100, help='Input the length of sequence'
+'--model': type=str, default='rnn', help='Input which model'
 ```
 
 # Results
